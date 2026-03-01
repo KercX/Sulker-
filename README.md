@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/images/banner.png" alt="SuLker Banner" width="100%">
+  <img src="assets/banner.svg" alt="SuLker Banner" width="100%">
 </p>
 
 <h1 align="center">🚀 SuLker ULTRA</h1>
