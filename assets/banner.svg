@@ -1,0 +1,46 @@
+<svg width="1200" height="400" viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f2027"/>
+      <stop offset="50%" stop-color="#203a43"/>
+      <stop offset="100%" stop-color="#2c5364"/>
+    </linearGradient>
+
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f5ff"/>
+      <stop offset="100%" stop-color="#ff00ff"/>
+    </linearGradient>
+
+    <filter id="blurEffect">
+      <feGaussianBlur stdDeviation="25"/>
+    </filter>
+
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#bgGradient)"/>
+
+  <!-- Glow Circle -->
+  <circle cx="300" cy="200" r="150" fill="#00f5ff" opacity="0.2" filter="url(#blurEffect)"/>
+  <circle cx="900" cy="200" r="150" fill="#ff00ff" opacity="0.2" filter="url(#blurEffect)"/>
+
+  <!-- Title -->
+  <text x="50%" y="45%" text-anchor="middle"
+        font-size="80"
+        font-family="Arial, sans-serif"
+        fill="url(#textGradient)"
+        font-weight="bold">
+    SuLker ULTRA
+  </text>
+
+  <!-- Subtitle -->
+  <text x="50%" y="60%" text-anchor="middle"
+        font-size="30"
+        font-family="Arial, sans-serif"
+        fill="#ffffff"
+        opacity="0.9">
+    Enterprise Multi-Platform Launcher Ecosystem
+  </text>
+
+</svg>
