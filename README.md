@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="SuLker Banner" width="100%">
+  <img src="assets/banner.svg" alt="" width="100%">
 </p>
 
-<h1 align="center">🚀 SuLker ULTRA</h1>
+<h1 align="center">🚀 SuLker</h1>
 
 <p align="center">
   Enterprise Multi-Platform Launcher Ecosystem
